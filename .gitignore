@@ -1,4 +1,4 @@
-node_modules
-HUDL-PlAYWRIGHT-TESTS/features
-test-results
+node_modules/
+/HUDL-PlAYWRIGHT-TESTS/features/
+/test-results/
 index.html
