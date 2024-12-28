@@ -36,7 +36,9 @@ Follow these steps to set up the project:
    npx playwright install
 ## 📂 Project Structure
 The project follows a modular structure for scalability and maintainability:
+
 src\test   .
+
     ├── features/                   # Contains feature files written in Gherkin
     │   └── loginTest.feature       # Example feature file for Hudl login
     |── helpers/reports             # Contains feature files written in Gherkin
