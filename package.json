@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cucumber-js test",
+    "test:video": "cucumber-js --tags @video",
     "test:login": "cucumber-js --tags @invalid",
     "test:home": "cucumber-js --tags @home",
     "test:validlogin": "cucumber-js --tags @valid",
