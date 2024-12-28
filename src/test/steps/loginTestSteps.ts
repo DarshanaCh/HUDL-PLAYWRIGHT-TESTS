@@ -6,7 +6,6 @@ import { page } from '../hooks/hook';
 
 
 let LoginPage: loginPage;
-//let playwrightSetup: PlaywrightSetup;
 
 Given('I am on the Hudl login page', async () => {
     await page.goto('https://www.hudl.com/login');
