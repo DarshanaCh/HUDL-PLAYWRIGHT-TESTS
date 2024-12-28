@@ -1,7 +1,6 @@
 import { Given, When, Then } from '@cucumber/cucumber';
 import { chromium, Browser, Page,expect,BrowserContext} from '@playwright/test';
 import { loginPage } from '../pages/loginPage';
-//import { browsers } from '../support/playwright.setup';
 import { page } from '../hooks/hook';
 
 
