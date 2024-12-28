@@ -1,0 +1,26 @@
+{
+  "name": "hudl-playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "test:login": "cucumber-js --tags @invalid",
+    "test:home": "cucumber-js --tags @home",
+    "test:validlogin": "cucumber-js --tags @valid",
+    "posttest":"npx ts-node src/test/helpers/reports/report.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.1",
+    "playwright": "^1.49.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.5.1",
+    "multiple-cucumber-html-reporter": "^3.8.0",
+    "ts-node": "^10.9.2"
+  }
+}

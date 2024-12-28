@@ -1,0 +1,10 @@
+{
+    "cucumber.features": [
+        
+        "src/test/**/*.feature",
+        "features/**/*.feature",
+        "test/**/*.feature",
+        "*specs*/**/*.feature"
+    ],
+    "search.useIgnoreFiles": false
+}
