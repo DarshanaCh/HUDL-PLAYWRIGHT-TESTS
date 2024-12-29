@@ -1,14 +1,6 @@
 
-import { Given, When, Then } from '@cucumber/cucumber';
-import { chromium, Browser, Page,expect,BrowserContext} from '@playwright/test';
-import { loginPage } from '../pages/loginPage';
+import { When, Then } from '@cucumber/cucumber';
 import { page } from '../hooks/hook';
-
-
-
-let LoginPage: loginPage;
-
-
 
 When(/^I should see Watch Now link$/, async() => {
     await page.getByRole('link', { name: 'Watch Now' }).isVisible();
@@ -31,6 +23,6 @@ Then(/^I should able to type 'Ronaldo Ronaldo'$/, async() => {
 });
 
 Then(/^I should see record in the list$/, async() => {
-    await page.getByRole('link', { name: 'RR Ronaldo Ronaldo Soccer #17' }).click();
-    await page.getByRole('heading', { name: 'Ronaldo Ronaldo', exact: true }).click();
+    await page.getByRole('link', { name: 'RR Ronaldo Ronaldo Soccer #17' }).click({});
+    await page.getByRole('heading', { name: 'Ronaldo Ronaldo', exact: true }).click({ timeout: 5000 });
 });
