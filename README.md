@@ -73,7 +73,7 @@ src\test   .
     npm run test:login
 
     # Run All the test with Chome
-  By default test will use chromium browser( if @tag is not applied)
+  By default test will use chromium browser( if @tag is not applied on scenario)
 
     # Run Tests in Headless Mode
   Modify the headless property in hook.ts or pass it programmatically to Playwright:
@@ -81,7 +81,7 @@ src\test   .
   await chromium.launch({ headless: true });
 ## 📋 Test Results
     # test reports
-  cucumber-report html
+  cucumber-report html,
   cucumber-report json
   Reprots can be found in test-results folder in project directory  
   you can find html report as index.html in project root directory
