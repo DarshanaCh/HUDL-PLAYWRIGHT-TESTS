@@ -33,7 +33,7 @@ Follow these steps to set up the project:
    git clone <https://github.com/DarshanaCh/HUDL-PLAYWRIGHT-TESTS.git>
    cd Hudl-playwright-tests
    npm install
-   npx playwright install
+   npx install playwright
 ## 📂 Project Structure
 The project follows a modular structure for scalability and maintainability:
 
