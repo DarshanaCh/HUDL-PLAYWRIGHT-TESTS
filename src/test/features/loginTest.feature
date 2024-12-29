@@ -30,7 +30,7 @@ Feature: Login to Hudl
     Given  I am on the Hudl login page
     When I enter Username as "chandaranadarshana@yahoo.co.uk" 
     And I click the continue button
-    And I enter  Password as "Password1!"
+    And I enter  Password as "Xxxxxxxxxx"
     Then I am able to see the homepage
 
 
