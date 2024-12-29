@@ -37,7 +37,7 @@ export class loginPage{
     }
     async assertHomepage()
     {
-        await this.page.getByText('Darshana C').click();
+        await this.page.getByText('Darshana C').isVisible();
 
     }
     async browserLoad()

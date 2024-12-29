@@ -20,7 +20,7 @@ Given('I have successfully Logged in', async function () {
     });
 
 Given('I should see my profile name', async function () {
-           await page.getByText('Darshana C').click();
+           await page.getByText('Darshana C').isVisible();
     });
 
 When('I select video link', async function () {

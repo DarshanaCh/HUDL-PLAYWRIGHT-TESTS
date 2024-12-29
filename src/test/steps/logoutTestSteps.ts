@@ -3,17 +3,10 @@ import { chromium, Browser, Page,expect,BrowserContext} from '@playwright/test';
 import { loginPage } from '../pages/loginPage';
 import { page } from '../hooks/hook';
 
-
-
 let LoginPage: loginPage;
 
-
-When(/^I should see Logout option$/, async() => {
-    await page.getByRole('link', { name: 'Log Out' }).isVisible();
-   
-});
-
 When(/^I should click Logout$/, async() => {
+    await page.getByText('Darshana C').click();
     await page.getByRole('link', { name: 'Log Out' }).click();
 });
 

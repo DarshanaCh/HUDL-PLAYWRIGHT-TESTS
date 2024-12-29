@@ -17,8 +17,7 @@ When(/^I enter Username as "([^"]*)"$/, async (args1) => {
 });
 
 When('I click the continue button', async() => {
-    // Write code here that turns the phrase above into concrete actions
-    await LoginPage.clickContinueBtn();
+  await LoginPage.clickContinueBtn();
   })
 
 When('I enter  Password as {string}', async (s: string) => {
