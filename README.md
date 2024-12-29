@@ -30,7 +30,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/DarshanaCh/HUDL-PLAYWRIGHT-TESTS.git>
    cd Hudl-playwright-tests
    npm install
    npx playwright install
@@ -73,7 +73,7 @@ src\test   .
     npm run test:login
 
     # Run All the test with Chome
-  By default test will use chromium browser
+  By default test will use chromium browser( if @tag is not applied)
 
     # Run Tests in Headless Mode
   Modify the headless property in hook.ts or pass it programmatically to Playwright:
